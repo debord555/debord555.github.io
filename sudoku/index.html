@@ -37,8 +37,23 @@
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
+  <style>
+    .loader {
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .loading-image {
+      width: 50px;
+    }
+  </style>
 </head>
 <body>
+  <div class="loader">
+    <img src="assets/loading-image.gif" class="loading-image"/>
+  </div>
   <script>
     window.addEventListener('load', function(ev) {
       // Download main.dart.js
