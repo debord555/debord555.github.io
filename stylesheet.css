@@ -1,0 +1,48 @@
+.sidebar {
+    width: 300px;
+    top: 0;
+    left: 0;
+    position: fixed;
+    text-align: center;
+    background-color: #0e1111;
+    height: 100%;
+    color: white;
+    padding: 25px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main {
+    margin-left: 300px;
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+.hello-text {
+    text-align: center;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 6px;
+    padding-left: 6px;
+}
+
+.profile-picture {
+    width: 250px;
+    padding: 15px;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+
+.link-text {
+    color: teal;
+}
