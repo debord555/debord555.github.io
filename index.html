@@ -1,53 +1,145 @@
-<!DOCTYPE html>
 <html>
+
 <head>
-  <!--
-    If you are serving your web app in a path other than the root, change the
-    href value below to reflect the base path you are serving from.
+    <title> Debasish Bordoloi </title>
 
-    The path provided below has to start and end with a slash "/" in order for
-    it to work correctly.
+    <style>
+        .sidebar {
+            width: 250px;
+            top: 0;
+            left: 0;
+            position: fixed;
+            padding-top: 75px;
+            text-align: center;
+            background-color: #0e1111;
+            height: 100%;
+            color: white;
 
-    For more details:
-    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+        }
 
-    This is a placeholder for base href that will be replaced by the value of
-    the `--base-href` argument provided to `flutter build`.
-  -->
+        .main {
+            margin-left: 250px;
+        }
 
-  <meta charset="UTF-8">
-  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="A new Flutter project.">
+        .hello-text {
+            text-align: center;
+        }
 
-  <!-- iOS meta tags & icons -->
-  <meta name="mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="my_website">
-  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+            padding-top: 3px;
+            padding-bottom: 3px;
+            padding-right: 6px;
+            padding-left: 6px;
+        }
 
-  <!-- Favicon -->
-  <link rel="icon" type="image/png" href="favicon.png"/>
+        .profile-picture {
+            width: 200px;
+            padding: 25px;
+            border-radius: 50%;
+        }
+    </style>
 
-  <title>my_website</title>
-  <link rel="manifest" href="manifest.json">
-  <style>
-    .container{
-      width: 100vw;
-      height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-    
-    .container{
-      width: 50;
-    }
-  </style>
+    <script src="https://kit.fontawesome.com/b24099035d.js" crossorigin="anonymous"></script>
+
 </head>
-<body style="overflow: hidden;">
-  <div id="loading_indicator" class="container">
-    <img class="indicator" src="Rhombus.gif" />
-  </div>
-  <script src="flutter_bootstrap.js" async></script>
+
+<body>
+
+    <div class="sidebar">
+        <img src="assets/debasishsquare.jpg" class="profile-picture">
+        <h2><strong>Debasish Bordoloi</strong></h2>
+        <em>Master of Technology</em>
+        <br>
+        <em>Department of Computer Science & Engineering</em>
+        <br>
+        <em>Indian Institute of Technology Bombay</em>
+        <br>
+        <br>
+        <a href="mailto:dbordoloi@cse.iitb.ac.in">dbordoloi@cse.iitb.ac.in</a>
+        <br>
+        <br>
+        <a href="https://www.linkedin.com/in/debasishbordoloi555" target="_blank">LinkedIn &#8599;</a>
+        <br>
+        <a href="https://www.github.com/debord555" target="_blank">GitHub <i class="fa-brands fa-github"></i></a>
+    </div>
+
+    <div class="main">
+        <h1 class="hello-text"> Hi! I am Debasish Bordoloi. </h1>
+
+        <h2>About Me</h2>
+
+        Hello! I am a computer science & engineering student currently pursuing a Master of Technology at Indian
+        Institute of Technology, Bombay. I am interested in computing systems and am fascinated by operating systems,
+        networking and computer hardware. When I am not working with computers, I enjoy video-games, movies and playing
+        on the piano.
+
+        <h2>Educational Qualifications</h2>
+
+        <table>
+            <tr>
+                <th>Degree/Diploma</th>
+                <th>Institute</th>
+                <th>Passing Year</th>
+            </tr>
+            <tr>
+                <td><strong>M.Tech.</strong> in <em>Computer Science & Engineering</em></td>
+                <td>Indian Institute of Technology Bombay</td>
+                <td style="font-style: italic;">ongoing</td>
+            </tr>
+            <tr>
+                <td><strong>B.Tech.</strong> in <em>Computer Science & Engineering</em></td>
+                <td>Tezpur University</td>
+                <td>2026</td>
+            </tr>
+            <tr>
+                <td><strong>ARSM</strong> in <em>Piano</em></td>
+                <td>Associated Board of the Royal Schools of Music, UK</td>
+                <td>2021</td>
+            </tr>
+        </table>
+
+        <h2>Projects</h2>
+
+        Some of the projects I have completed in the past are:
+
+        <dl>
+            <dt><strong>Code-Switching Detection in English-Assamese Speech</strong></dt>
+            <dd>This was my final year project
+                during my B.Tech. at Tezpur University, which I did along with my classmate Ashutosh Yadav. This project
+                attempted to detect the temporal language boundaries in code-switched English-Assamese speech. We
+                evaluated various strategies involving different kinds of features (formants, energy,
+                zero-crossing-rate, MFCCs, Mel spectrograms and Wav2Vec embeddings) with two model architectures: CNN
+                and BiLSTM, achieving upto 0.86 MAE.</dd>
+
+            <dt><strong>Engineering Complaints Portal</strong></dt>
+            <dd>This was complaints registration and redressal web
+                portal for Engineering Cell, Tezpur University which I developed in my final year of B.Tech. The server
+                was written in Java using Spring Boot; the frontend is server-rendered using Thymeleaf template engine.
+                This system is currently in use at Tezpur University <a href="http://117.203.160.21">here</a>.</dd>
+
+            <dt><strong>Bluetooth-Controlled Automated Switch</strong></dt>
+            <dd> This appliance is made with the intent to
+                automatically switch on or off electrical appliances at certain set times. This setting can be done
+                using a smart phone which connects with the appliance using Bluetooth LE. The project was made using
+                ESP8266, HM-10 BLE chip, DS3131 RTC and electro-mechanical relays. User-facing Android application was
+                developed using Flutter.</dd>
+        </dl>
+
+        <h2>Conference Presentations</h2>
+
+        In 2025, I had the opportunity to present a paper titled <strong>Empirical Evaluation of Augmentation Strategies
+            for Mizo Folk Song Dataset</strong> at <strong>India International Symposium on Acoustics (IISA)
+            2025</strong>, Gurugram, India. I co-authored this paper with Esther Ramdinmawii, erstwhile research scholar
+        at Dept. of CSE, Tezpur University and Dr. Sanghamitra Nath, Asst. Professor, Dept. of CSE, Tezpur University.
+
+
+
+    </div>
 </body>
+
 </html>
