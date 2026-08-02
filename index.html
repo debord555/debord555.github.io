@@ -1,55 +1,87 @@
-<html>
+<!DOCTYPE html>
+
+<html lang="en">
 
 <head>
     <title> Debasish Bordoloi </title>
 
     <link rel="stylesheet" href="stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Mozilla+Headline:wght@200..700&display=swap"
+        rel="stylesheet">
     <script src="https://kit.fontawesome.com/b24099035d.js" crossorigin="anonymous"></script>
 
 </head>
 
-<body>
+<body class="ibm-plex-sans-body">
 
     <div class="sidebar">
         <div>
             <img src="assets/debasishsquare.jpg" class="profile-picture">
-            <h2><strong>Debasish Bordoloi</strong></h2>
-            <em>Master of Technology Student</em>
+            <h1 class="mozilla-headline-bold"><strong>Debasish Bordoloi</strong></h1>
+            Master of Technology Student
             <br>
             <br>
-            <em>Department of Computer Science & Engineering,</em>
+            Department of Computer Science & Engineering,
             <br>
-            <em>Indian Institute of Technology Bombay</em>
+            Indian Institute of Technology Bombay
             <br>
             <br>
         </div>
         <div>
-            CONTACT
             <div class="contact-links">
-                <a href="mailto:dbordoloi@cse.iitb.ac.in" class="link-text"><img src="assets/envelope-at-fill.svg"
-                        class="contact-icon"></a>
+                <a href="mailto:dbordoloi@cse.iitb.ac.in" target="_blank" class="link-text"><i
+                        class="fa-solid fa-envelope"></i></a>
                 <br>
                 <br>
-                <a href="https://www.linkedin.com/in/debasishbordoloi555" target="_blank" class="link-text"><img
-                        src="assets/linkedin.svg" class="contact-icon"></a>
+                <a href="https://www.linkedin.com/in/debasishbordoloi555" target="_blank" class="link-text"><i
+                        class="fa-brands fa-linkedin"></i></a>
                 <br>
-                <a href="https://www.github.com/debord555" target="_blank" class="link-text"><img
-                        src="assets/github.svg" class="contact-icon"></a>
+                <a href="https://www.github.com/debord555" target="_blank" class="link-text"><i
+                        class="fa-brands fa-github"></i></a>
             </div>
         </div>
     </div>
 
     <div class="main">
-        <h1 class="hello-text"> Hi! I am Debasish Bordoloi. </h1>
 
-        <h2>About Me</h2>
+        <h1 class="mozilla-headline-bold">About Me</h1>
+        <hr style="height: 0px;">
 
         Hello! I am a computer science & engineering student currently pursuing Master of Technology at Indian
         Institute of Technology, Bombay. I am interested in computing systems and am fascinated by operating systems,
         networking and computer hardware. When I am not working with computers, I enjoy video-games, movies and playing
         on the piano.
 
-        <h2>Educational Qualifications</h2>
+        <h1 class="mozilla-headline-bold">Work Experience</h1>
+        <hr>
+
+        <dl>
+            <dt>
+                <strong>Research Intern</strong> &mdash; <strong>Dept. of CSE, Tezpur University</strong> &mdash; <em>June 2025 to
+                    August 2025</em>
+            </dt>
+            <dd>
+                Empirically evaluated various augmentation strategies for Mizo folk song dataset facing severe class
+                imbalance, with the end goal of classification, both in time and frequency domains. The resulting work
+                was presented at IISA 2025, Gurugram, India.
+            </dd>
+        </dl>
+
+        <h1 class="mozilla-headline-bold">Conference Presentations</h1>
+        <hr>
+
+        In 2025, I had the opportunity to present a paper titled <strong>Empirical Evaluation of Augmentation Strategies
+            for Mizo Folk Song Dataset</strong> at <strong>India International Symposium on Acoustics (IISA)
+            2025</strong>, Gurugram, India. I co-authored this paper with Esther Ramdinmawii, erstwhile research scholar
+        at Dept. of CSE, Tezpur University and <a
+            href="https://www.tezu.ernet.in/dcompsc/people/staff/teaching/home_page/snath.html">Dr. Sanghamitra
+            Nath</a>, Asst. Professor, Dept. of CSE, Tezpur University.
+
+        <h1 class="mozilla-headline-bold">Educational Qualifications</h1>
+        <hr>
 
         <table>
             <tr>
@@ -67,14 +99,15 @@
                 <td>Tezpur University</td>
                 <td>2026</td>
             </tr>
-            <tr>
+            <!-- <tr>
                 <td><strong>ARSM</strong> in <em>Piano</em></td>
                 <td>Associated Board of the Royal Schools of Music, UK</td>
                 <td>2021</td>
-            </tr>
+            </tr> -->
         </table>
 
-        <h2>Projects</h2>
+        <h1 class="mozilla-headline-bold">Projects</h1>
+        <hr>
 
         Some of the projects I have completed in the past are:
 
@@ -88,10 +121,11 @@
                 and BiLSTM, achieving upto 0.86 MAE.</dd>
 
             <dt><strong>Engineering Complaints Portal</strong></dt>
-            <dd>This was complaints registration and redressal web
+            <dd>This was a complaints registration and redressal web
                 portal for Engineering Cell, Tezpur University which I developed in my final year of B.Tech. The server
                 was written in Java using Spring Boot; the frontend is server-rendered using Thymeleaf template engine.
-                This system is currently in use at Tezpur University <a href="http://117.203.160.21">here</a>.</dd>
+                This system is currently in use at Tezpur University <a href="http://117.203.160.21"
+                    target="_blank">here</a>.</dd>
 
             <dt><strong>Bluetooth-Controlled Automated Switch</strong></dt>
             <dd> This appliance is made with the intent to
@@ -100,15 +134,6 @@
                 ESP8266, HM-10 BLE chip, DS3131 RTC and electro-mechanical relays. User-facing Android application was
                 developed using Flutter.</dd>
         </dl>
-
-        <h2>Conference Presentations</h2>
-
-        In 2025, I had the opportunity to present a paper titled <strong>Empirical Evaluation of Augmentation Strategies
-            for Mizo Folk Song Dataset</strong> at <strong>India International Symposium on Acoustics (IISA)
-            2025</strong>, Gurugram, India. I co-authored this paper with Esther Ramdinmawii, erstwhile research scholar
-        at Dept. of CSE, Tezpur University and <a
-            href="https://www.tezu.ernet.in/dcompsc/people/staff/teaching/home_page/snath.html">Dr. Sanghamitra
-            Nath</a>, Asst. Professor, Dept. of CSE, Tezpur University.
 
     </div>
 </body>

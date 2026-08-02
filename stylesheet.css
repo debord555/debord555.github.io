@@ -20,14 +20,19 @@ body {
 
 .main {
     margin-left: 300px;
-    padding: 16px;
+    padding: 32px;
     box-sizing: border-box;
     background-color: #eeeeee;
     min-height: 100vh;
+    text-align: justify;
 }
 
 .hello-text {
     text-align: center;
+}
+
+a {
+    color: teal;
 }
 
 table,
@@ -52,6 +57,11 @@ table {
 }
 
 .link-text {
+    color: white;
+    font-size: 24px;
+}
+
+.link-text:hover {
     color: teal;
 }
 
@@ -63,10 +73,33 @@ table {
     padding-right: 25px;
 }
 
-.contact-icon {
-    width: 24px;
-}
-
 .contact-icon:hover {
     transform: scale(1.5);
+}
+
+.mozilla-headline-bold {
+  font-family: "Mozilla Headline", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.ibm-plex-sans-body {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+h1 {
+    font-size: 20pt;
+    margin-bottom: 0px;
+}
+
+hr {
+    margin-bottom: 16px;
 }
