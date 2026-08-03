@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Mozilla Headline";
-    src: url("assets/mozilla_headline.ttf") format("truetype-variations"),;
+    src: url("assets/mozilla_headline.ttf") format("truetype-variations");
     font-weight: 200 700;
     font-width: 75% 125%;
 }
@@ -27,8 +27,6 @@ body {
 
 .sidebar {
     width: 300px;
-    top: 0;
-    left: 0;
     position: fixed;
     text-align: center;
     background-color: #0e1111;
@@ -132,26 +130,16 @@ table {
     padding-right: 25px;
 }
 
-.contact-icon:hover {
-    transform: scale(1.5);
-}
-
 .mozilla-headline-bold {
-  font-family: "Mozilla Headline", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: bold;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+    font-family: "Mozilla Headline", sans-serif;
+    font-weight: bold;
+    font-style: normal;
 }
 
 .ibm-plex-sans-body {
-  font-family: "IBM Plex Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: normal;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: normal;
+    font-style: normal;
 }
 
 h1 {
